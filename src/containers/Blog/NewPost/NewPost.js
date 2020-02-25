@@ -12,6 +12,10 @@ class NewPost extends Component {
     submitted: false
   };
 
+  componentDidMount() {
+    //if unath this.props.history.replace('/posts');
+  }
+
   postDataHandler = () => {
     const payload = {
       title: this.state.title,
